@@ -2,9 +2,9 @@
 
 Table of contents for notes on algorithms.
     
-- [Search](search.md)
+<!-- - [Search](search.md)
     - [Binary Search](search.md#binary-search)
-    - [Linear Search](search.md#linear-search)
+    - [Linear Search](search.md#linear-search) -->
 
 - [Sort](sort.md)
     - [Bubble Sort](sort.md#bubble-sort)
@@ -17,10 +17,10 @@ Table of contents for notes on algorithms.
     - [DFS](graphs.md#dfs)
     - [A*](graphs.md#a)
 
-- [Trees](trees.md)
+<!-- - [Trees](trees.md)
     - [Binary Tree](trees.md#binary-tree)
     - [Binary Search Tree](trees.md#binary-search-tree)
-    - [AVL Tree](trees.md#avl-tree)
+    - [AVL Tree](trees.md#avl-tree) -->
 
 <!-- - [Data Structures](data-structures.md)
     - [Stack](data-structures.md#stack)
