@@ -104,7 +104,7 @@ Table of contents for notes on algorithms.
     - Hash trie
     - K-ary tree
     - Judy array
-    - Key–value database
+    - Key value database
     - Log-structured merge-tree
     - MinHash
     - Order statistic tree
