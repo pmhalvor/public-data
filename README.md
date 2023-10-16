@@ -18,7 +18,7 @@ One central location for my public-facing datasets.
   <!-- - [Math](/notes/math)
     - [Number Theory](/notes/math/number-theory.md)
   - [Operating Systems](/notes/operating-systems)
-    - [Linux](/notes/operating-systems/linux.md)
+    - [Linux](/notes/operating-systems/Linux.md)
   - [Programming Languages](/notes/programming-languages)
     - [C](/notes/programming-languages/c.md)
     - [C++](/notes/programming-languages/c++.md)
