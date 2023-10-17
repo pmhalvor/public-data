@@ -3,13 +3,28 @@
   <head>
     <meta charset="UTF-8">
     <!-- MathJax -->
-    <script type="text/javascript"
+    <!-- <script type="text/javascript"
       src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
     </script>
-
+    -->
+    
     <!-- Battle for the Net widget https://github.com/fightforthefuture/battleforthenet-widget -->
     <!-- <script src="https://widget.battleforthenet.com/widget.js" async></script> -->
-
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+          extensions: ["tex2jax.js"],
+          tex2jax: {
+              inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+              processEscapes: true,
+              processRefs: true,
+              processEnvironments: true
+          },
+          TeX: { equationNumbers: { autoNumber: "AMS" } }
+      });
+    </script>
+    <script type="text/javascript" async
+      src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
   </head>
   <body>
    
