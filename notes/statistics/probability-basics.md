@@ -1,4 +1,18 @@
+---
+title: Statistics - Probabillity Basics
+keywords:
+  - Joint Probabilities
+  - Conditional Probabilities
+  - Bayes Theorem
+  - Cnetral Limit Theorem
+  - Law of Total Probabilities
+author:
+  - Per Halvorsen with Copilot
+usemathjax: true
+---
+
 # Statistics - Probabillity Basics
+## Joint and Conditional Probabilities, Bayes Theorem, CLT and LTP
 
 Table of contents for notes on probability basics:
 - [Joint Probability](probability-basics.md#joint-probability)
