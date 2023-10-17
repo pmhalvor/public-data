@@ -6,3 +6,7 @@ title: Public Facing Data
 description: Personal dataset I am willing to expose to the world.
 
 # google_analytics: [Your Google Analytics tracking ID]
+
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
