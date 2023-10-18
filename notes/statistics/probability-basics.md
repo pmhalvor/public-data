@@ -23,7 +23,7 @@ P(A \cap B) = P(A) \cdot P(B)
 $$
 
 A venn diagram is a useful way to visualize joint probability.
-![Venn Diagram](https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Venn0001.svg/1200px-Venn0001.svg.png){: style="float:right; width: 70%; margin-right: 1em; margin-bottom: 1em"}
+![Venn Diagram](https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Venn0001.svg/1200px-Venn0001.svg.png){: style="float:center; width: 50%; margin-right: 1em; margin-bottom: 1em"}
 _(Image from [Wikipedia](https://en.wikipedia.org/wiki/Probability))_
 
 Some examples of joint probability:
@@ -51,7 +51,7 @@ P(A \mid B) = \frac{P(A \cap B)}{P(B)}
 $$
 
 A nice way to visualize conditional probability is with a tree diagram.
-![Tree Diagram](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Probability_tree_diagram.svg/2560px-Probability_tree_diagram.svg.png){: style="float:right; width: 80%; margin-right: 1em; margin-bottom: 1em"}
+![Tree Diagram](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Probability_tree_diagram.svg/2560px-Probability_tree_diagram.svg.png){: style="float:center; width: 80%; margin-right: 1em; margin-bottom: 1em"}
 _(Image from [Wikipedia](https://en.wikipedia.org/wiki/Conditional_probability))_
 
 Some examples of conditional probability:
@@ -79,7 +79,7 @@ P(A \mid B) = \frac{P(B \mid A) \cdot P(A)}{P(B)}
 $$
 
 Building off the visiualization from the conditional probability section, we can visualize Bayes' theorem as follows:
-![Bayes' Theorem](https://upload.wikimedia.org/wikipedia/commons/6/61/Bayes_theorem_tree_diagrams.svg){: style="float:right; width: 80%; margin-right: 1em; margin-bottom: 1em"}
+![Bayes' Theorem](https://upload.wikimedia.org/wikipedia/commons/6/61/Bayes_theorem_tree_diagrams.svg){: style="float:center; width: 50%; margin-right: 1em; margin-bottom: 1em"}
 
 Some examples of Bayes' theorem:
 - The probability of a person having a disease given that they tested positive for the disease is $$\frac{P(positive \mid disease) \cdot P(disease)}{P(positive)}$$.
@@ -111,10 +111,9 @@ The Cenntral Limit Theorem (CLT) states that the sampling distribution of the me
 The central limit theorem is important because it allows us to make inferences about a population given a sample of data. It is the basis for many statistical tests and calculations.
 
 I found a nice visualization for this on GitHub (https://github.com/dfsnow/clt).
-![Central Limit Theorem](https://raw.githubusercontent.com/dfsnow/clt/master/gifs/log.gif){: style="float:right; width: 80%; margin-right: 1em; margin-bottom: 1em"}
+![Central Limit Theorem](https://raw.githubusercontent.com/dfsnow/clt/master/gifs/log.gif){: style="float:center; width: 80%; margin-right: 1em; margin-bottom: 1em"}
 
- <!-- 
-It got late so I asked ChatGTP for help. While the following proof may be correct, I feel I would have a hard time reiterating it. So I'll commetn it out for now, and adapt it to more interpretable language later. 
+<!-- It got late so I asked ChatGTP for help. While the following proof may be correct, I feel I would have a hard time reiterating it. So I'll commetn it out for now, and adapt it to more interpretable language later. 
 
 Mathematically, the Central Limit Theorem can be expressed as follows:
 
