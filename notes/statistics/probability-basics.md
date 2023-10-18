@@ -23,8 +23,10 @@ P(A \cap B) = P(A) \cdot P(B)
 $$
 
 A venn diagram is a useful way to visualize joint probability.
-![Venn Diagram](https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Venn0001.svg/1200px-Venn0001.svg.png){: style="display: block; margin-left: auto; margin-right: auto; width: 50%;"}
-_(Image from [Wikipedia](https://en.wikipedia.org/wiki/Probability))_
+<div> 
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Venn0001.svg/1200px-Venn0001.svg.png" alt="Venn Diagram" style="width: 50%; display: block; margin-left: auto; margin-right: auto;">
+  <p style="text-align: center;">(Image from <a href="https://en.wikipedia.org/wiki/Probability">Wikipedia</a>)</p>
+</div>
 
 Some examples of joint probability:
 - The probability of rolling a 2 and a 3 on a pair of dice is $$\frac{1}{36}$$.
@@ -51,8 +53,11 @@ P(A \mid B) = \frac{P(A \cap B)}{P(B)}
 $$
 
 A nice way to visualize conditional probability is with a tree diagram.
-![Tree Diagram](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Probability_tree_diagram.svg/2560px-Probability_tree_diagram.svg.png){: style="display: block; margin-left: auto; margin-right: auto; width: 80%;"}
-_(Image from [Wikipedia](https://en.wikipedia.org/wiki/Conditional_probability))_
+
+<div> 
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Probability_tree_diagram.svg/2560px-Probability_tree_diagram.svg.png" alt="Tree Diagram" style="width: 50%; display: block; margin-left: auto; margin-right: auto;">
+  <p style="text-align: center;">(Image from <a href="https://en.wikipedia.org/wiki/Conditional_probability">Wikipedia</a>)</p>
+</div>
 
 Some examples of conditional probability:
 - The probability of rolling a 3 on a die given that the number is odd is $$\frac{1}{3}$$.
@@ -79,7 +84,13 @@ P(A \mid B) = \frac{P(B \mid A) \cdot P(A)}{P(B)}
 $$
 
 Building off the visiualization from the conditional probability section, we can visualize Bayes' theorem as follows:
-![Bayes' Theorem](https://upload.wikimedia.org/wikipedia/commons/6/61/Bayes_theorem_tree_diagrams.svg){: style="display: block; margin-left: auto; margin-right: auto; width: 50%;"}
+
+
+<div> 
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/Bayes_theorem_tree_diagrams.svg" alt="Bayes Theorem" style="width: 50%; display: block; margin-left: auto; margin-right: auto;">
+  <p style="text-align: center;">(Image from <a href="https://en.wikipedia.org/wiki/Bayes_theorem">Wikipedia</a>)</p>
+</div>
+
 
 Some examples of Bayes' theorem:
 - The probability of a person having a disease given that they tested positive for the disease is $$\frac{P(positive \mid disease) \cdot P(disease)}{P(positive)}$$.
@@ -110,8 +121,11 @@ The Cenntral Limit Theorem (CLT) states that the sampling distribution of the me
 
 The central limit theorem is important because it allows us to make inferences about a population given a sample of data. It is the basis for many statistical tests and calculations.
 
-I found a nice visualization for this on GitHub (https://github.com/dfsnow/clt).
-![Central Limit Theorem](https://raw.githubusercontent.com/dfsnow/clt/master/gifs/log.gif){: style="display: block; margin-left: auto; margin-right: auto; width: 50%;"}
+I found a nice visualization for this on GitHub:
+<div> 
+  <img src="https://raw.githubusercontent.com/dfsnow/clt/master/gifs/log.gif" alt="CLT" style="width: 50%; display: block; margin-left: auto; margin-right: auto;">
+  <p style="text-align: center;">(Image from <a href="https://github.com/dfsnow/clt">https://github.com/dfsnow/clt</a>)</p>
+</div>
 
 <!-- It got late so I asked ChatGTP for help. While the following proof may be correct, I feel I would have a hard time reiterating it. So I'll commetn it out for now, and adapt it to more interpretable language later. 
 
