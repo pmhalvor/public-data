@@ -1,12 +1,16 @@
-remote_theme: pages-themes/cayman@v0.2.0
-plugins:
-- jekyll-remote-theme 
+#remote_theme: pages-themes/cayman@v0.2.0
+#plugins:
+#- jekyll-remote-theme 
 
 title: Public Facing Data
 description: Personal dataset I am willing to expose to the world.
 
 # google_analytics: [Your Google Analytics tracking ID]
 
-markdown: kramdown
-kramdown:
-  math_engine: mathjax
+plugins: 
+  - jekyll-mathjax-2
+
+mathjax:
+  enable: true
+  single_dollars: true
+  block_dollars: true
