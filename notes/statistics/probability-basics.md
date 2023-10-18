@@ -44,10 +44,10 @@ The probability of an event occurring given that another event has already occur
 Again, the events could dependent or independent of each other.
 Unlike joint probability, the events are not necessarily occurring simultaneously.
 
-Mathematically, the conditional probability of two events A and B is denoted as $$P(A \| B)$$ and is defined as:
+Mathematically, the conditional probability of two events A and B is denoted as $$P(A \mid B)$$ and is defined as:
 
 $$
-P(A \| B) = \frac{P(A \cap B)}{P(B)}
+P(A \mid B) = \frac{P(A \cap B)}{P(B)}
 $$
 
 A nice way to visualize conditional probability is with a tree diagram.
@@ -75,27 +75,27 @@ I like to this of it as a mirrored conditional probability.
 
 Mathematically, Bayes' theorem is defined as:
 $$
-P(A \| B) = \frac{P(B \| A) \cdot P(A)}{P(B)}
+P(A \mid B) = \frac{P(B \mid A) \cdot P(A)}{P(B)}
 $$
 
 <!-- I don't know of a good way to visualize this. Come back. -->
 
 Some examples of Bayes' theorem:
-- The probability of a person having a disease given that they tested positive for the disease is $$\frac{P(positive \| disease) \cdot P(disease)}{P(positive)}$$.
-- The probability of a user having an interest in topic X, given that they have an interest in topic Y, is $$\frac{P(topic Y \| topic X) \cdot P(topic X)}{P(topic Y)}$$.
+- The probability of a person having a disease given that they tested positive for the disease is $$\frac{P(positive \mid disease) \cdot P(disease)}{P(positive)}$$.
+- The probability of a user having an interest in topic X, given that they have an interest in topic Y, is $$\frac{P(topic Y \mid topic X) \cdot P(topic X)}{P(topic Y)}$$.
 
 
 To apply Bayes' theorem to our previous example, we need to expand a bit on our problem. Now, we are trying to predict the probability of a setence being classified as positive given that it contains the word "love". We'll use the same corpus as before, but now we'll need to add "positive" or "negative" labels to each sentence. 
 
 Assuming an 40/60 split of positive and negative sentences in the corpus, the probability of a sentence being positive is $$P(positive) = 0.4$$ and the probability of a sentence being negative is $$P(negative) = 0.6$$. The probability of a sentence containing the word "love" is $$P(love) = 0.1$$. 
 
-The probability of a sentence containing the word "love" given that it is positive is $$P(love \| positive) = 0.2$$. The probability of a sentence containing the word "love" given that it is negative is $$P(love \| negative) = 0.05$$. 
+The probability of a sentence containing the word "love" given that it is positive is $$P(love \mid positive) = 0.2$$. The probability of a sentence containing the word "love" given that it is negative is $$P(love \mid negative) = 0.05$$. 
 
 The Bayes theorem then allows us to calculate the probability of a sentence being positive given that it contains the word "love".
 
 Mathematically, this would look like:
 $$
-P(positive \| love) = \frac{P(love \| positive) \cdot P(positive)}{P(love)} = \frac{0.2 \cdot 0.4}{0.1} = 0.8
+P(positive \mid love) = \frac{P(love \mid positive) \cdot P(positive)}{P(love)} = \frac{0.2 \cdot 0.4}{0.1} = 0.8
 $$
 
 <!-- This is not the best example, since we already have both sides of the data, but at least it shows the consistency of the theorem -->
