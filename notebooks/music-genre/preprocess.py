@@ -100,8 +100,8 @@ def resample(signal, n_bits=16):
 
 def get_feature_tensor(genre_features, feature="mfcc_feats", verbose=0, max_dim=2986): # 2986 is lowest mfcc len in our dataset
     feature_tensor = None
-    labels = []
     file_paths = []
+    labels = []
 
     for genre in genre_features:
         print("Building", feature, "for", genre) if verbose > 0 else None
@@ -119,8 +119,8 @@ def get_feature_tensor(genre_features, feature="mfcc_feats", verbose=0, max_dim=
             ]))
             continue
 
-        file_paths.append(genre_features[genre]["file_paths"])
-        labels.append(genre)
+        file_paths += genre_features[genre]["file_paths"]
+        labels += [genre for _ in range(len(genre_features[genre]["file_paths"]))]
 
         if feature_tensor is None:
             feature_tensor = genre_feature_tensor
@@ -128,8 +128,14 @@ def get_feature_tensor(genre_features, feature="mfcc_feats", verbose=0, max_dim=
             feature_tensor = torch.cat([feature_tensor, genre_feature_tensor], axis=0)
         print("feature_tensor shape:", feature_tensor.shape) if verbose > 1 else None
 
+    file_paths = np.array(file_paths)
+    labels = np.array(labels)
+
     print("feature_tensor shape:", feature_tensor.shape) if verbose > 0 else None
-    return feature_tensor
+    print("file_paths shape:", file_paths.shape) if verbose > 0 else None
+    print("labels shape:", labels.shape) if verbose > 0 else None
+
+    return feature_tensor, file_paths, labels
 
 
 def log_specgram(audio, sample_rate, window_size=20, step_size=10, eps=1e-10):
@@ -153,14 +159,16 @@ if __name__ == "__main__":
     genre_features = load_genre_features(genre_dir, verbose=1)
 
     # build mfcc tensor
-    mfcc_tensor = get_feature_tensor(genre_features, feature="mfcc_feats", verbose=1)
+    mfcc_tensor, file_paths, labels = get_feature_tensor(genre_features, feature="mfcc_feats", verbose=1)
 
     # build covariance tensor
     # covariance is like the QK step of an attention head
-    covariance_tensor = get_feature_tensor(genre_features, feature="covariances", verbose=1)
+    covariance_tensor, _, _ = get_feature_tensor(genre_features, feature="covariances", verbose=1)
 
     # store
     torch.save(mfcc_tensor, "mfcc.pt")
     torch.save(covariance_tensor, "covariance.pt")
+    np.save("file_paths.npy", file_paths)
+    np.save("labels.npy", labels)
 
 
