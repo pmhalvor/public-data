@@ -1,7 +1,8 @@
 ## Personal adds
 music.dat 
 data_exploration.ipynb
-*.parquet
+*.pt
+
 
 ## Basic Python ignores
 
