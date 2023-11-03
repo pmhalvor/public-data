@@ -123,6 +123,7 @@ threadpoolctl==3.2.0
 tinycss2==1.2.1
 torch==2.1.0
 tornado @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_3a5nrn2jeh/croot/tornado_1696936974091/work
+tqdm==4.66.1
 traitlets @ file:///home/conda/feedstock_root/build_artifacts/traitlets_1696377679271/work
 types-python-dateutil==2.8.19.14
 typing_extensions @ file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1695040754690/work
