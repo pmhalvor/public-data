@@ -12,7 +12,7 @@ _Disclaimer: The pseudo-code was developed with assistance from [GitHubCopilot](
 
 
 _"Bubble sort is a comparison-based sorting algorithm that repeatedly swaps adjacent elements if they are in the wrong order. It is implemented using nested loops."_
-<div style="text-align: right; font-style: italic;"> - GitHub Copilot </div>
+<div style="text-align: right; font-style: italic;"> - Github Copilot </div>
 
 <br>
 Two neighboring elements are compared at a time.
@@ -43,7 +43,7 @@ def bubble_sort(arr):
 ## Insertion Sort
 
 _"Insertion sort is a comparison-based sorting algorithm that builds a sorted array one element at a time by comparing each element to its predecessor and swapping them if they are in the wrong order. It is implemented using nested loops."_
-<div style="text-align: right; font-style: italic;"> - GitHub Copilot </div>
+<div style="text-align: right; font-style: italic;"> - Github Copilot </div>
 
 <br>
 
@@ -74,7 +74,7 @@ def insertion_sort(arr):
 ## Merge Sort
 
 _"Merge sort is a comparison-based sorting algorithm that divides an array into two halves, sorts each half recursively, and then merges the two halves into a sorted array. It is implemented using recursion."_
-<div style="text-align: right; font-style: italic;"> - GitHub Copilot </div>
+<div style="text-align: right; font-style: italic;"> - Github Copilot </div>
 
 
 <br>
