@@ -50,6 +50,8 @@ Store stage output locally.
      - kNN classifiers are simple yet powerful for this scenario, especially for small to medium-sized datasets.
 
 2. **Deep Learning Models (Optional):**
+   - **Multilayer Perceptron (MLP):**
+     - MLPs are suitable for this task since they can handle high-dimensional data and learn complex relationships.
    - **Convolutional Neural Networks (CNNs):**
      - CNNs are suitable for analyzing spectrogram-like data. You can convert MFCCs into images and use CNN architectures.
    - **Recurrent Neural Networks (RNNs):**
@@ -67,24 +69,13 @@ Store stage output locally.
 1. **Ensemble Methods:**
    - Experiment with ensemble methods like Voting Classifier or Stacking Classifier to combine predictions from multiple models.
 
-2. **Error Analysis:**
+2. **Pretrained models:**
+   - Use pretrained models like VGGish or OpenL3 to extract features from audio samples and train classifiers on top of them.
+
+3. **Error Analysis:**
    - Analyze misclassified samples to understand patterns or common mistakes made by the models.
 
-### Step 7: Model Fine-Tuning and Optimization
-1. **Hyperparameter Tuning:**
-   - Use techniques like grid search or random search to optimize hyperparameters for the best-performing models.
-
-2. **Data Augmentation (Optional):**
-   - Augment the dataset with techniques like time stretching, pitch shifting, or adding noise to improve model robustness.
-
-### Step 8: Interpretation and Visualization
-1. **Feature Importance:**
-   - Visualize feature importances (for models like Random Forest) to understand which MFCCs contribute most to classification.
-
-2. **Confusion Matrix and Visualizations:**
-   - Create confusion matrices and visualizations to understand model performance across different genres.
-
-### Step 9: Reporting and Documentation
+### Step 7: Reporting and Documentation
 1. **Documentation:**
    - Document the entire process, including data preprocessing, model selection, hyperparameters, and evaluation results.
 
