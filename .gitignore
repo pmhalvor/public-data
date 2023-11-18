@@ -13,6 +13,8 @@ e/
 f/
 coversongs/
 covers80.*
+melbands.dat
+melbands.npy
 
 ## Basic Python ignores
 
