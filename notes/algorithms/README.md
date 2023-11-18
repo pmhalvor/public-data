@@ -2,9 +2,11 @@
 
 Table of contents for notes on algorithms.
     
-<!-- - [Search](search.md)
-    - [Binary Search](search.md#binary-search)
-    - [Linear Search](search.md#linear-search) -->
+
+- [Graphs](graphs.md)
+    - [BFS](graphs.md#bfs)
+    - [DFS](graphs.md#dfs)
+    - [A*](graphs.md#a)
 
 - [Sort](sort.md)
     - [Bubble Sort](sort.md#bubble-sort)
@@ -12,113 +14,4 @@ Table of contents for notes on algorithms.
     - [Merge Sort](sort.md#merge-sort)
     - [Quick Sort](sort.md#quick-sort)
 
-- [Graphs](graphs.md)
-    - [BFS](graphs.md#bfs)
-    - [DFS](graphs.md#dfs)
-    - [A*](graphs.md#a)
-
-<!-- - [Trees](trees.md)
-    - [Binary Tree](trees.md#binary-tree)
-    - [Binary Search Tree](trees.md#binary-search-tree)
-    - [AVL Tree](trees.md#avl-tree) -->
-
-<!-- - [Data Structures](data-structures.md)
-    - [Stack](data-structures.md#stack)
-    - [Queue](data-structures.md#queue)
-    - [Linked List](data-structures.md#linked-list)
-    - [Hash Table](data-structures.md#hash-table)
-    - [Heap](data-structures.md#heap)
-    - [Trie](data-structures.md#trie)
-    - [Graph](data-structures.md#graph)
-    - [Tree](data-structures.md#tree)
-    - [Array](data-structures.md#array)
-    - [Set](data-structures.md#set)
-    - [Map](data-structures.md#map) 
     
-    - Bit Array
-    - Bit Field
-    - Binary Tree
-    - Binary Search Tree
-    - AVL Tree
-    - B-Tree
-    - Red-Black Tree
-    - Splay Tree
-    - Skip List
-    - Circular Buffer
-    - Linked List
-    - Doubly Linked List
-    - Array List
-    - Hash Table
-    - Binary Heap
-    - Queue
-    - Priority Queue
-    - Double Ended Priority Queue
-    - Graph
-    - Undirected Graph
-    - Directed Graph
-    - Directed Acyclic Graph
-    - Trie
-    - Fenwick Tree
-    - Suffix Array
-    - Segment Tree
-    - K-D Tree
-    - Range Tree
-    - Binary Indexed Tree
-    - Van Emde Boas Tree
-    - Min-Max Heap
-    - Bloom Filter
-    - Count-Min Sketch
-    - Counting Bloom Filter
-    - HyperLogLog
-    - Linear Feedback Shift Register
-    - Memtable
-    - B-Tree
-    - Judy Array
-    - Ctrie
-    - Rope
-    - Hash Array Mapped Trie
-    - Bitap
-    - Rete
-    - Rope
-    - Symbol Table
-    - Suffix Tree
-    - Dancing Links
-    - Hash-List Hybrid
-    - Scapegoat Tree
-    - Aho-Corasick
-    - X-fast Trie
-    - Y-fast Trie
-    - Fusion Tree
-    - B-trie
-    - Judy Array
-    - Bit array
-    - Bit field
-    - Bitmap
-    - Bitmap index
-    - Ctrie
-    - D-left hashing
-    - Hash array mapped trie
-    - Hash list
-    - Hash table
-    - Hash tree
-    - Hash trie
-    - K-ary tree
-    - Judy array
-    - Key value database
-    - Log-structured merge-tree
-    - MinHash
-    - Order statistic tree
-    - Prefix tree
-    - Radix tree
-    - Randomized binary search tree
-    - Rope
-    - Suffix array
-    - Suffix tree
-    - T-tree
-    - Ternary search tree
-    - X-fast trie
-    - Y-fast trie
-    - Trie
-    - Associative array
-    - Multimap
-    - Ordered -->
