@@ -15,6 +15,7 @@ One central location for my public-facing datasets.
     - [Linked List](/notes/datastructures.md#linked-list)
     - [Queue](/notes/datastructures.md#queue)
     - [Stack](/notes/datastructures.md#stack)
+  - [Music data exploration](/notes/music/data-exploration.html)
   - [Statistics](/notes/statistics/)
     - [Probability basics](/notes/statistics/probability-basics.md)
       - [Joint Probability](/notes/statistics/probability-basics.md#joint-probability)
@@ -22,12 +23,3 @@ One central location for my public-facing datasets.
       - [Bayes' Theorem](/notes/statistics/probability-basics.md#bayes-theorem)
       - [Law of Total Probability](/notes/statistics/probability-basics.md#law-of-total-probability)
       - [Central Limit Theorem](/notes/statistics/probability-basics.md#central-limit-theorem)
-
-  <!-- - [Math](/notes/math)
-    - [Number Theory](/notes/math/number-theory.md)
-  - [Operating Systems](/notes/operating-systems)
-    - [Linux](/notes/operating-systems/Linux.md)
-  - [Programming Languages](/notes/programming-languages)
-    - [C](/notes/programming-languages/c.md)
-    - [C++](/notes/programming-languages/c++.md)
-    - [Python](/notes/programming-languages/python.md) -->
